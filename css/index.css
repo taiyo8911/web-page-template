@@ -1,0 +1,116 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fffff8;
+}
+
+.nav li {
+    list-style: none;
+    display: inline;
+}
+
+p {
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #0000ff;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+address {
+    margin: 1% 1% 1% 2%;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 140%;
+    margin: 0;
+    padding: 0.5em;
+    background-color: #990000;
+    color: #ffffff;
+}
+
+h2 {
+    margin: 1%;
+    padding-left: 6px;
+    background-color: #FFCCCC;
+    border-top: solid 1px #660000;
+    color: #990000;
+}
+
+h3 {
+    margin: 1%;
+    padding-left: 6px;
+    border-bottom: solid 2px #5fd75f;
+    color: #0a450a;
+}
+
+#to_top_btn {
+    position: fixed;
+    bottom: 40px;
+    right: 320px;
+}
+
+@media screen and (max-width: 480px) {
+    #to_top_btn {
+        right: 50px;
+    }
+}
+
+
+#to_top_btn a {
+    padding: 5px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 40%;
+    font-size: 24px;
+}
+
+ul.nav {
+    margin: 0;
+    padding: 0;
+}
+
+a.nav {
+    margin: 1%;
+    border: solid #0000ff 1px;
+    padding: 3px;
+    font-size: 90%;
+    display: inline-block;
+}
+
+a.nav:hover {
+    color: #990000;
+    background-color: #FFCCCC;
+}
+
+.contents {
+    margin: 1%;
+    background: #fffff8;
+}
+
+footer {
+    text-align: center;
+}
+
+.blog {
+    background-color: #66ff99;
+    color: #000000;
+    font-family: monospace;
+    padding: 3px;
+    font-size: 1em;
+    margin-right: 10px;
+}
